@@ -1,0 +1,1691 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "turns": 96,
+    "conversations": 23,
+    "evaluation_mode": "deterministic_mock",
+    "live_model_accuracy_measured": false
+  },
+  "aggregate": {
+    "scored_turns": {
+      "numerator": 96,
+      "denominator": 96
+    },
+    "decision_correct": {
+      "numerator": 91,
+      "denominator": 96
+    },
+    "required_facts_found": {
+      "numerator": 78,
+      "denominator": 96
+    },
+    "forbidden_claims_absent": {
+      "numerator": 96,
+      "denominator": 96
+    },
+    "tool_calls_correct": {
+      "numerator": 95,
+      "denominator": 96
+    },
+    "identity_behavior_correct": {
+      "numerator": 44,
+      "denominator": 48
+    },
+    "ticket_behavior_correct": {
+      "numerator": 5,
+      "denominator": 6
+    },
+    "handover_behavior_correct": {
+      "numerator": 5,
+      "denominator": 6
+    },
+    "evidence_recall": {
+      "numerator": 56,
+      "denominator": 69
+    },
+    "context_behavior_correct": {
+      "numerator": 73,
+      "denominator": 73
+    },
+    "unscored_errors": {
+      "numerator": 0,
+      "denominator": 96
+    }
+  },
+  "scenarios": {
+    "cancel_shipped_order": {
+      "scored_turns": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "decision_correct": {
+        "numerator": 6,
+        "denominator": 8
+      },
+      "required_facts_found": {
+        "numerator": 6,
+        "denominator": 8
+      },
+      "forbidden_claims_absent": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "tool_calls_correct": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "identity_behavior_correct": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "ticket_behavior_correct": {
+        "numerator": 0,
+        "denominator": 0
+      },
+      "handover_behavior_correct": {
+        "numerator": 0,
+        "denominator": 0
+      },
+      "evidence_recall": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "context_behavior_correct": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "unscored_errors": {
+        "numerator": 0,
+        "denominator": 8
+      }
+    },
+    "cancel_unshipped_order": {
+      "scored_turns": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "decision_correct": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "required_facts_found": {
+        "numerator": 6,
+        "denominator": 8
+      },
+      "forbidden_claims_absent": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "tool_calls_correct": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "identity_behavior_correct": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "ticket_behavior_correct": {
+        "numerator": 0,
+        "denominator": 0
+      },
+      "handover_behavior_correct": {
+        "numerator": 0,
+        "denominator": 0
+      },
+      "evidence_recall": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "context_behavior_correct": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "unscored_errors": {
+        "numerator": 0,
+        "denominator": 8
+      }
+    },
+    "compensation_demand": {
+      "scored_turns": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "decision_correct": {
+        "numerator": 6,
+        "denominator": 8
+      },
+      "required_facts_found": {
+        "numerator": 6,
+        "denominator": 8
+      },
+      "forbidden_claims_absent": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "tool_calls_correct": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "identity_behavior_correct": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "ticket_behavior_correct": {
+        "numerator": 0,
+        "denominator": 0
+      },
+      "handover_behavior_correct": {
+        "numerator": 0,
+        "denominator": 0
+      },
+      "evidence_recall": {
+        "numerator": 4,
+        "denominator": 6
+      },
+      "context_behavior_correct": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "unscored_errors": {
+        "numerator": 0,
+        "denominator": 8
+      }
+    },
+    "express_late_credit": {
+      "scored_turns": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "decision_correct": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "required_facts_found": {
+        "numerator": 6,
+        "denominator": 8
+      },
+      "forbidden_claims_absent": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "tool_calls_correct": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "identity_behavior_correct": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "ticket_behavior_correct": {
+        "numerator": 0,
+        "denominator": 0
+      },
+      "handover_behavior_correct": {
+        "numerator": 0,
+        "denominator": 0
+      },
+      "evidence_recall": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "context_behavior_correct": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "unscored_errors": {
+        "numerator": 0,
+        "denominator": 8
+      }
+    },
+    "failed_verification": {
+      "scored_turns": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "decision_correct": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "required_facts_found": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "forbidden_claims_absent": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "tool_calls_correct": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "identity_behavior_correct": {
+        "numerator": 2,
+        "denominator": 6
+      },
+      "ticket_behavior_correct": {
+        "numerator": 0,
+        "denominator": 0
+      },
+      "handover_behavior_correct": {
+        "numerator": 0,
+        "denominator": 0
+      },
+      "evidence_recall": {
+        "numerator": 2,
+        "denominator": 2
+      },
+      "context_behavior_correct": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "unscored_errors": {
+        "numerator": 0,
+        "denominator": 8
+      }
+    },
+    "high_value_damage": {
+      "scored_turns": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "decision_correct": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "required_facts_found": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "forbidden_claims_absent": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tool_calls_correct": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "identity_behavior_correct": {
+        "numerator": 2,
+        "denominator": 2
+      },
+      "ticket_behavior_correct": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "handover_behavior_correct": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "evidence_recall": {
+        "numerator": 3,
+        "denominator": 3
+      },
+      "context_behavior_correct": {
+        "numerator": 3,
+        "denominator": 3
+      },
+      "unscored_errors": {
+        "numerator": 0,
+        "denominator": 4
+      }
+    },
+    "human_requested": {
+      "scored_turns": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "decision_correct": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "required_facts_found": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "forbidden_claims_absent": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "tool_calls_correct": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "identity_behavior_correct": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "ticket_behavior_correct": {
+        "numerator": 2,
+        "denominator": 2
+      },
+      "handover_behavior_correct": {
+        "numerator": 2,
+        "denominator": 2
+      },
+      "evidence_recall": {
+        "numerator": 3,
+        "denominator": 6
+      },
+      "context_behavior_correct": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "unscored_errors": {
+        "numerator": 0,
+        "denominator": 8
+      }
+    },
+    "refund_status": {
+      "scored_turns": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "decision_correct": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "required_facts_found": {
+        "numerator": 6,
+        "denominator": 8
+      },
+      "forbidden_claims_absent": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "tool_calls_correct": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "identity_behavior_correct": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "ticket_behavior_correct": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "handover_behavior_correct": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "evidence_recall": {
+        "numerator": 4,
+        "denominator": 6
+      },
+      "context_behavior_correct": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "unscored_errors": {
+        "numerator": 0,
+        "denominator": 8
+      }
+    },
+    "repeat_contact": {
+      "scored_turns": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "decision_correct": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "required_facts_found": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "forbidden_claims_absent": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "tool_calls_correct": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "identity_behavior_correct": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "ticket_behavior_correct": {
+        "numerator": 2,
+        "denominator": 2
+      },
+      "handover_behavior_correct": {
+        "numerator": 2,
+        "denominator": 2
+      },
+      "evidence_recall": {
+        "numerator": 4,
+        "denominator": 6
+      },
+      "context_behavior_correct": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "unscored_errors": {
+        "numerator": 0,
+        "denominator": 8
+      }
+    },
+    "return_eligibility": {
+      "scored_turns": {
+        "numerator": 10,
+        "denominator": 10
+      },
+      "decision_correct": {
+        "numerator": 10,
+        "denominator": 10
+      },
+      "required_facts_found": {
+        "numerator": 6,
+        "denominator": 10
+      },
+      "forbidden_claims_absent": {
+        "numerator": 10,
+        "denominator": 10
+      },
+      "tool_calls_correct": {
+        "numerator": 10,
+        "denominator": 10
+      },
+      "identity_behavior_correct": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "ticket_behavior_correct": {
+        "numerator": 0,
+        "denominator": 0
+      },
+      "handover_behavior_correct": {
+        "numerator": 0,
+        "denominator": 0
+      },
+      "evidence_recall": {
+        "numerator": 6,
+        "denominator": 8
+      },
+      "context_behavior_correct": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "unscored_errors": {
+        "numerator": 0,
+        "denominator": 10
+      }
+    },
+    "topic_switch": {
+      "scored_turns": {
+        "numerator": 10,
+        "denominator": 10
+      },
+      "decision_correct": {
+        "numerator": 10,
+        "denominator": 10
+      },
+      "required_facts_found": {
+        "numerator": 8,
+        "denominator": 10
+      },
+      "forbidden_claims_absent": {
+        "numerator": 10,
+        "denominator": 10
+      },
+      "tool_calls_correct": {
+        "numerator": 10,
+        "denominator": 10
+      },
+      "identity_behavior_correct": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "ticket_behavior_correct": {
+        "numerator": 0,
+        "denominator": 0
+      },
+      "handover_behavior_correct": {
+        "numerator": 0,
+        "denominator": 0
+      },
+      "evidence_recall": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "context_behavior_correct": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "unscored_errors": {
+        "numerator": 0,
+        "denominator": 10
+      }
+    },
+    "where_is_my_order": {
+      "scored_turns": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "decision_correct": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "required_facts_found": {
+        "numerator": 6,
+        "denominator": 8
+      },
+      "forbidden_claims_absent": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "tool_calls_correct": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "identity_behavior_correct": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "ticket_behavior_correct": {
+        "numerator": 0,
+        "denominator": 0
+      },
+      "handover_behavior_correct": {
+        "numerator": 0,
+        "denominator": 0
+      },
+      "evidence_recall": {
+        "numerator": 4,
+        "denominator": 6
+      },
+      "context_behavior_correct": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "unscored_errors": {
+        "numerator": 0,
+        "denominator": 8
+      }
+    }
+  },
+  "failed_or_unscored": [
+    {
+      "conversation_id": "PC003",
+      "turn": 4,
+      "scenario": "return_eligibility",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": true,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "required facts mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [],
+      "expected_tools": [],
+      "retrieved_section_ids": [
+        "CAN-2",
+        "CPN-3",
+        "DEL-3",
+        "DWM-4",
+        "FAQ-2",
+        "KB-00.1",
+        "KB-00.3",
+        "MKS-2",
+        "PLS-2",
+        "REF-1",
+        "RET-1",
+        "RET-2",
+        "RET-3",
+        "RET-9",
+        "RVP-1"
+      ],
+      "customer_message": "Kya main Kaafi Running Sneakers return kar sakti hoon?"
+    },
+    {
+      "conversation_id": "PC003",
+      "turn": 5,
+      "scenario": "return_eligibility",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": true,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "required facts mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [],
+      "expected_tools": [],
+      "retrieved_section_ids": [
+        "CAN-1",
+        "CAN-2",
+        "DWM-2",
+        "ESC-1",
+        "IDV-1",
+        "KB-00.1",
+        "PAY-4",
+        "PLS-2",
+        "PLS-3",
+        "REF-1",
+        "REF-2",
+        "REF-4",
+        "REF-6",
+        "RET-7",
+        "RET-9"
+      ],
+      "customer_message": "Aur refund kitne din mein aayega?"
+    },
+    {
+      "conversation_id": "PC004",
+      "turn": 3,
+      "scenario": "return_eligibility",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": true,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": true,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": false,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "evidence recall mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [
+        "lookup_order(order_id=79363550, verification_value=2949)"
+      ],
+      "expected_tools": [
+        "lookup_order(order_id=79363550, verification_value=2949)"
+      ],
+      "retrieved_section_ids": [
+        "FAQH-1",
+        "FAQH-2"
+      ],
+      "customer_message": "आख़िरी चार अंक [REDACTED_NUMBER]हैं।"
+    },
+    {
+      "conversation_id": "PC004",
+      "turn": 4,
+      "scenario": "return_eligibility",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": true,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "required facts mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [],
+      "expected_tools": [],
+      "retrieved_section_ids": [
+        "CAN-2",
+        "CPN-3",
+        "DEL-3",
+        "DWM-4",
+        "FAQH-1",
+        "FAQH-3",
+        "FAQH-4",
+        "MKS-2",
+        "PLS-2",
+        "REF-1",
+        "REF-2",
+        "RET-2",
+        "RET-6",
+        "RET-8",
+        "RET-9"
+      ],
+      "customer_message": "क्या मैं UrbanThread Slim Fit Jeans वापस कर सकती हूँ?"
+    },
+    {
+      "conversation_id": "PC004",
+      "turn": 5,
+      "scenario": "return_eligibility",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": false,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "required facts mismatch",
+        "evidence recall mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [],
+      "expected_tools": [],
+      "retrieved_section_ids": [
+        "CAN-2",
+        "CAN-3",
+        "DEL-1",
+        "DWM-1",
+        "DWM-4",
+        "FAQH-2",
+        "FAQH-3",
+        "FAQH-4",
+        "MKS-2",
+        "PAY-3",
+        "PLS-2",
+        "PLS-3",
+        "REF-1",
+        "REF-2",
+        "REF-3"
+      ],
+      "customer_message": "और रिफ़ंड कितने दिन में आएगा?"
+    },
+    {
+      "conversation_id": "PC005",
+      "turn": 3,
+      "scenario": "human_requested",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": true,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": true,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": false,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "evidence recall mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [
+        "lookup_order(order_id=37113676, verification_value=1581)"
+      ],
+      "expected_tools": [
+        "lookup_order(order_id=37113676, verification_value=1581)"
+      ],
+      "retrieved_section_ids": [
+        "FAQH-1",
+        "FAQH-2"
+      ],
+      "customer_message": "आख़िरी चार अंक [REDACTED_NUMBER]हैं।"
+    },
+    {
+      "conversation_id": "PC005",
+      "turn": 4,
+      "scenario": "human_requested",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": true,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": true,
+      "handover_behavior_correct": true,
+      "evidence_recall": false,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "evidence recall mismatch"
+      ],
+      "decision": "escalate",
+      "expected_decision": "escalate",
+      "actual_tools": [
+        "create_ticket()"
+      ],
+      "expected_tools": [
+        "create_ticket()"
+      ],
+      "retrieved_section_ids": [
+        "FAQH-1",
+        "FAQH-2",
+        "FAQH-3",
+        "FAQH-4"
+      ],
+      "customer_message": "क्या मैं किसी इंसान से बात कर सकती हूँ?"
+    },
+    {
+      "conversation_id": "PC006",
+      "turn": 4,
+      "scenario": "human_requested",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": true,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": true,
+      "handover_behavior_correct": true,
+      "evidence_recall": false,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "evidence recall mismatch"
+      ],
+      "decision": "escalate",
+      "expected_decision": "escalate",
+      "actual_tools": [
+        "create_ticket()"
+      ],
+      "expected_tools": [
+        "create_ticket()"
+      ],
+      "retrieved_section_ids": [
+        "CAN-1",
+        "CAN-2",
+        "CAN-3",
+        "DEL-1",
+        "DEL-3",
+        "DEL-4",
+        "DEL-6",
+        "DWM-2",
+        "DWM-4",
+        "DWM-5",
+        "ESC-4",
+        "FAQ-4",
+        "IDV-4",
+        "PAY-4",
+        "PLS-3"
+      ],
+      "customer_message": "Actually, can I just speak to a person?"
+    },
+    {
+      "conversation_id": "PC007",
+      "turn": 4,
+      "scenario": "repeat_contact",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": true,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": true,
+      "handover_behavior_correct": true,
+      "evidence_recall": false,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "evidence recall mismatch"
+      ],
+      "decision": "escalate",
+      "expected_decision": "escalate",
+      "actual_tools": [
+        "create_ticket()"
+      ],
+      "expected_tools": [
+        "create_ticket()"
+      ],
+      "retrieved_section_ids": [
+        "ESC-4"
+      ],
+      "customer_message": "Main is hafte teesri baar call kar rahi hoon isi baare mein."
+    },
+    {
+      "conversation_id": "PC008",
+      "turn": 4,
+      "scenario": "repeat_contact",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": true,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": true,
+      "handover_behavior_correct": true,
+      "evidence_recall": false,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "evidence recall mismatch"
+      ],
+      "decision": "escalate",
+      "expected_decision": "escalate",
+      "actual_tools": [
+        "create_ticket()"
+      ],
+      "expected_tools": [
+        "create_ticket()"
+      ],
+      "retrieved_section_ids": [
+        "CAN-3",
+        "DWM-1",
+        "ESC-1",
+        "ESC-2",
+        "KB-00.1",
+        "KB-00.2",
+        "KB-00.3",
+        "KB-00.4",
+        "REF-2",
+        "RET-1",
+        "RET-2",
+        "RET-3",
+        "RET-7",
+        "RET-8",
+        "STY-5"
+      ],
+      "customer_message": "This is the third time I'm calling about this in a week."
+    },
+    {
+      "conversation_id": "PC009",
+      "turn": 3,
+      "scenario": "refund_status",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": true,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": true,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": false,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "evidence recall mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [
+        "lookup_order(order_id=67830826, verification_value=0783)"
+      ],
+      "expected_tools": [
+        "lookup_order(order_id=67830826, verification_value=0783)"
+      ],
+      "retrieved_section_ids": [
+        "FAQH-1",
+        "FAQH-2"
+      ],
+      "customer_message": "आख़िरी चार अंक [REDACTED_NUMBER]हैं।"
+    },
+    {
+      "conversation_id": "PC009",
+      "turn": 4,
+      "scenario": "refund_status",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": false,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "required facts mismatch",
+        "evidence recall mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [],
+      "expected_tools": [],
+      "retrieved_section_ids": [
+        "FAQH-2",
+        "FAQH-3",
+        "FAQH-4"
+      ],
+      "customer_message": "मेरा रिफ़ंड कहाँ है?"
+    },
+    {
+      "conversation_id": "PC010",
+      "turn": 4,
+      "scenario": "refund_status",
+      "scored": true,
+      "decision_correct": false,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": false,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": false,
+      "handover_behavior_correct": false,
+      "evidence_recall": true,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "decision mismatch",
+        "required facts mismatch",
+        "tool calls mismatch",
+        "ticket behavior mismatch",
+        "handover behavior mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "escalate",
+      "actual_tools": [],
+      "expected_tools": [
+        "create_ticket()"
+      ],
+      "retrieved_section_ids": [
+        "CAN-1",
+        "CAN-2",
+        "DWM-2",
+        "ESC-1",
+        "IDV-1",
+        "KB-00.1",
+        "PAY-4",
+        "PLS-2",
+        "PLS-3",
+        "REF-1",
+        "REF-2",
+        "REF-4",
+        "REF-6",
+        "RET-7",
+        "RET-9"
+      ],
+      "customer_message": "Mera refund kahan hai?"
+    },
+    {
+      "conversation_id": "PC011",
+      "turn": 3,
+      "scenario": "where_is_my_order",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": true,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": true,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "required facts mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [
+        "lookup_order(order_id=26295015, verification_value=8752)"
+      ],
+      "expected_tools": [
+        "lookup_order(order_id=26295015, verification_value=8752)"
+      ],
+      "retrieved_section_ids": [
+        "ESC-1",
+        "IDV-2",
+        "REF-1",
+        "STY-3"
+      ],
+      "customer_message": "The last four digits are [REDACTED_NUMBER]."
+    },
+    {
+      "conversation_id": "PC011",
+      "turn": 4,
+      "scenario": "where_is_my_order",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": true,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": false,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "evidence recall mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [],
+      "expected_tools": [],
+      "retrieved_section_ids": [
+        "CAN-2",
+        "CAN-3",
+        "DEL-1",
+        "DEL-4",
+        "DWM-5",
+        "ESC-1",
+        "IDV-3",
+        "PAY-3",
+        "PLS-2",
+        "REF-1",
+        "RET-2",
+        "RVP-3",
+        "TRB-4",
+        "TRK-1",
+        "TRK-2"
+      ],
+      "customer_message": "And what if I'm not at home?"
+    },
+    {
+      "conversation_id": "PC012",
+      "turn": 3,
+      "scenario": "where_is_my_order",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": true,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": true,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "required facts mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [
+        "lookup_order(order_id=75447568, verification_value=0654)"
+      ],
+      "expected_tools": [
+        "lookup_order(order_id=75447568, verification_value=0654)"
+      ],
+      "retrieved_section_ids": [
+        "ESC-1",
+        "IDV-2",
+        "REF-1",
+        "STY-3"
+      ],
+      "customer_message": "The last four digits are [REDACTED_NUMBER]."
+    },
+    {
+      "conversation_id": "PC012",
+      "turn": 4,
+      "scenario": "where_is_my_order",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": true,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": false,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "evidence recall mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [],
+      "expected_tools": [],
+      "retrieved_section_ids": [
+        "CAN-2",
+        "CAN-3",
+        "DEL-1",
+        "DEL-4",
+        "DWM-5",
+        "ESC-1",
+        "IDV-3",
+        "PAY-3",
+        "PLS-2",
+        "REF-1",
+        "RET-2",
+        "RVP-3",
+        "TRB-4",
+        "TRK-1",
+        "TRK-2"
+      ],
+      "customer_message": "And what if I'm not at home?"
+    },
+    {
+      "conversation_id": "PC013",
+      "turn": 5,
+      "scenario": "topic_switch",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": true,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "required facts mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [],
+      "expected_tools": [],
+      "retrieved_section_ids": [
+        "CAN-1",
+        "CAN-2",
+        "CAN-4",
+        "CPN-1",
+        "DEL-1",
+        "DEL-2",
+        "DEL-3",
+        "DEL-4",
+        "DEL-5",
+        "DEL-6",
+        "MKS-1",
+        "REF-1",
+        "REF-5",
+        "RET-1",
+        "TRK-1"
+      ],
+      "customer_message": "Achha. Aur mera order kab ship hua tha?"
+    },
+    {
+      "conversation_id": "PC014",
+      "turn": 5,
+      "scenario": "topic_switch",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": true,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "required facts mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [],
+      "expected_tools": [],
+      "retrieved_section_ids": [
+        "CAN-1",
+        "CAN-2",
+        "CPN-1",
+        "CPN-2",
+        "DEL-3",
+        "ESC-1",
+        "MKS-1",
+        "PAY-3",
+        "REF-1",
+        "REF-2",
+        "REF-4",
+        "REF-5",
+        "RET-1",
+        "RET-6",
+        "TRK-1"
+      ],
+      "customer_message": "Got it. And going back to my order, when was it shipped?"
+    },
+    {
+      "conversation_id": "PC015",
+      "turn": 4,
+      "scenario": "compensation_demand",
+      "scored": true,
+      "decision_correct": false,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": false,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "decision mismatch",
+        "required facts mismatch",
+        "evidence recall mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "refuse",
+      "actual_tools": [],
+      "expected_tools": [],
+      "retrieved_section_ids": [
+        "CAN-1",
+        "CAN-2",
+        "CAN-3",
+        "CPN-1",
+        "DEL-1",
+        "DEL-2",
+        "DEL-4",
+        "DEL-5",
+        "KB-00.2",
+        "MKS-1",
+        "PAY-1",
+        "PLS-2",
+        "REF-2",
+        "TRK-1",
+        "TRK-2"
+      ],
+      "customer_message": "Order late aaya, mujhe 300 rupaye ka voucher chahiye."
+    },
+    {
+      "conversation_id": "PC016",
+      "turn": 4,
+      "scenario": "compensation_demand",
+      "scored": true,
+      "decision_correct": false,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": false,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "decision mismatch",
+        "required facts mismatch",
+        "evidence recall mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "refuse",
+      "actual_tools": [],
+      "expected_tools": [],
+      "retrieved_section_ids": [
+        "CAN-1",
+        "CAN-2",
+        "CAN-3",
+        "CPN-1",
+        "DEL-1",
+        "DEL-2",
+        "DEL-4",
+        "DEL-5",
+        "KB-00.2",
+        "MKS-1",
+        "PAY-1",
+        "PLS-2",
+        "REF-2",
+        "TRK-1",
+        "TRK-2"
+      ],
+      "customer_message": "Order late aaya, mujhe 300 rupaye ka voucher chahiye."
+    },
+    {
+      "conversation_id": "PC017",
+      "turn": 4,
+      "scenario": "cancel_unshipped_order",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": true,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "required facts mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [],
+      "expected_tools": [],
+      "retrieved_section_ids": [
+        "CAN-1",
+        "CAN-2",
+        "CAN-3",
+        "CAN-4",
+        "FAQH-1",
+        "REF-1"
+      ],
+      "customer_message": "Please ise cancel kar do."
+    },
+    {
+      "conversation_id": "PC018",
+      "turn": 4,
+      "scenario": "cancel_unshipped_order",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": true,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "required facts mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [],
+      "expected_tools": [],
+      "retrieved_section_ids": [
+        "CAN-1",
+        "CAN-2",
+        "CAN-3",
+        "CAN-4",
+        "FAQH-1",
+        "REF-1"
+      ],
+      "customer_message": "Please ise cancel kar do."
+    },
+    {
+      "conversation_id": "PC019",
+      "turn": 4,
+      "scenario": "cancel_shipped_order",
+      "scored": true,
+      "decision_correct": false,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": true,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "decision mismatch",
+        "required facts mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "refuse",
+      "actual_tools": [],
+      "expected_tools": [],
+      "retrieved_section_ids": [
+        "CAN-1",
+        "CAN-2",
+        "CAN-3",
+        "CAN-4",
+        "FAQH-1",
+        "REF-1"
+      ],
+      "customer_message": "Mujhe ise cancel karna hai."
+    },
+    {
+      "conversation_id": "PC020",
+      "turn": 4,
+      "scenario": "cancel_shipped_order",
+      "scored": true,
+      "decision_correct": false,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": true,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "decision mismatch",
+        "required facts mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "refuse",
+      "actual_tools": [],
+      "expected_tools": [],
+      "retrieved_section_ids": [
+        "CAN-1",
+        "CAN-2",
+        "CAN-3",
+        "CAN-4",
+        "FAQH-1",
+        "REF-1"
+      ],
+      "customer_message": "I want to cancel it."
+    },
+    {
+      "conversation_id": "PC023",
+      "turn": 4,
+      "scenario": "express_late_credit",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": true,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "required facts mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [],
+      "expected_tools": [],
+      "retrieved_section_ids": [
+        "CAN-3",
+        "DEL-1",
+        "DEL-2",
+        "DEL-3",
+        "DEL-4",
+        "DEL-5",
+        "DEL-6",
+        "PAY-1",
+        "PAY-2",
+        "PAY-3",
+        "PAY-4",
+        "PLS-2",
+        "REF-2",
+        "REF-5",
+        "RET-6"
+      ],
+      "customer_message": "My express delivery was late. Do I get the fee back?"
+    },
+    {
+      "conversation_id": "PC024",
+      "turn": 4,
+      "scenario": "express_late_credit",
+      "scored": true,
+      "decision_correct": true,
+      "required_facts_found": false,
+      "forbidden_claims_absent": true,
+      "tool_calls_correct": true,
+      "identity_behavior_correct": null,
+      "ticket_behavior_correct": null,
+      "handover_behavior_correct": null,
+      "evidence_recall": true,
+      "context_behavior_correct": true,
+      "evidence_applicable": true,
+      "error_category": "",
+      "diagnostics": [
+        "required facts mismatch"
+      ],
+      "decision": "answer",
+      "expected_decision": "answer",
+      "actual_tools": [],
+      "expected_tools": [],
+      "retrieved_section_ids": [
+        "CAN-3",
+        "DEL-1",
+        "DEL-2",
+        "DEL-3",
+        "DEL-4",
+        "DEL-5",
+        "DEL-6",
+        "PAY-1",
+        "PAY-2",
+        "PAY-3",
+        "PAY-4",
+        "PLS-2",
+        "REF-2",
+        "REF-5",
+        "RET-6"
+      ],
+      "customer_message": "My express delivery was late. Do I get the fee back?"
+    }
+  ],
+  "priority_failure_categories": [
+    {
+      "category": "required facts mismatch",
+      "count": 18
+    },
+    {
+      "category": "evidence recall mismatch",
+      "count": 13
+    },
+    {
+      "category": "decision mismatch",
+      "count": 5
+    },
+    {
+      "category": "identity behavior mismatch",
+      "count": 4
+    },
+    {
+      "category": "tool calls mismatch",
+      "count": 1
+    },
+    {
+      "category": "ticket behavior mismatch",
+      "count": 1
+    },
+    {
+      "category": "handover behavior mismatch",
+      "count": 1
+    }
+  ]
+}
